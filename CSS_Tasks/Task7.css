@@ -1,0 +1,55 @@
+/* Centering the form container */
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    background: #702a40;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style labels */
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* Input fields */
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="tel"],
+.form-container input[type="number"],
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Radio buttons */
+.form-container input[type="radio"] {
+    margin: 0 5px;
+}
+
+/* Register button */
+.register-btn {
+    width: 100%;
+    background: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.register-btn:hover {
+    background: #ddd;
+}

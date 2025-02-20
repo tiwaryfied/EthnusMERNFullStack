@@ -1,0 +1,24 @@
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Header Styling */
+th {
+    background-color: #4CAF50; /* Green header */
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Row Styling */
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Alternate Row Colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray for even rows */
+}

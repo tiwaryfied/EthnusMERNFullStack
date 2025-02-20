@@ -1,0 +1,51 @@
+/* Set background color for the whole page */
+body {
+    background-color: #d0cc66; /* Light yellowish-green */
+    color: #4b0076; /* Dark purple for text */
+    font-family: "Georgia", serif;
+    margin: 20px;
+}
+
+/* Styling the main header */
+h1 {
+    color: #4b0076;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Sidebar container */
+.sidebar {
+    width: 150px;
+    float: left;
+    padding: 10px;
+}
+
+/* Sidebar navigation links */
+.sidebar a {
+    display: block;
+    width: 120px;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: #4b0076;
+    text-decoration: none;
+    border-left: 10px solid black; /* Black box on the left */
+    font-weight: bold;
+}
+
+/* Sidebar link hover effect */
+.sidebar a:hover {
+    background-color: #eee;
+}
+
+/* Main content */
+.content {
+    margin-left: 180px;
+    padding: 10px;
+}
+
+/* Italicized footer */
+footer {
+    font-style: italic;
+    margin-top: 20px;
+}
